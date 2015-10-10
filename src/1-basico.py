@@ -19,6 +19,8 @@
 
 variavel = "Mundo"
 
+variavel
+
 print(variavel)
 
 print(variavel2)
@@ -27,11 +29,11 @@ print('Olá ', variavel)
 
 print('Olá', variavel + '.')
 
-print("Olá ' ")
-
 print('Olá \' ')
 
 print(r'Olá \' ')
+
+print('Olá {}'.format(variavel))
 
 variavel[0] # Acesso a uma posição da string
 
