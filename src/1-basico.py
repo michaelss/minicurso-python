@@ -35,6 +35,8 @@ print(r'Olá \' ')
 
 print('Olá {}'.format(variavel))
 
+print('Olá %s' % variavel))
+
 variavel[0] # Acesso a uma posição da string
 
 variavel[0] = 'm' # Erro: Strings são IMUTÁVEIS
@@ -78,6 +80,10 @@ numeros = numeros + [64, 81, 100]
 aninhada = [[1, 2, 3], ['a', 'b', 'c']]
 
 aninhada[1][0]
+
+nomes = ['Ana', 'Joaquim', 'Maria', 'José']
+
+(', ').join(nomes)
 
 
 # Slices

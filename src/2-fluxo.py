@@ -16,6 +16,21 @@ else:
 tipo = 'curto' if len(nome) < 5 else 'longo'
 
 
+# Código 'pythonico'
+nome = 'Lucas'
+animais = ['Cachorro', 'Gato', 'Hamster']
+donos = {'Lucas': 'Cachorro', 'Bianca': 'Gato'}
+
+# Assim não é 'pythonico':
+if nome != '' and len(animais) > 0 and donos != {}:
+    print('Temos animais!')
+
+# Assim é 'pythonico':
+if nome and animais and donos:
+    print('Temos animais!')
+
+
+
 # For
 # --------------------------------
 
