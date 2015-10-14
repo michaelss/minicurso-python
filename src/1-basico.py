@@ -85,6 +85,10 @@ nomes = ['Ana', 'Joaquim', 'Maria', 'José']
 
 (', ').join(nomes)
 
+nomes[:-2]
+
+nomes
+
 
 # Slices
 # --------------------------------
