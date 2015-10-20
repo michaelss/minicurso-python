@@ -51,7 +51,13 @@ variavel = "10"
 
 int(variavel) + inteiro # Somando
 
-a, b = 1, 2
+a, b = 1, 2 # Atribuição dupla
+
+a
+
+b
+
+a, b = b, a
 
 
 # Listas

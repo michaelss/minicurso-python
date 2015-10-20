@@ -1,3 +1,8 @@
+
+# Para testar, basta executar o arquivo. Ele possui uma bateria de testes ao
+# final.
+
+
 # A.
 # Dada uma lista de palavras retorne a quantidade de palavras cujo tamanho seja
 # maior que 2 e que o primeiro caractere seja igual ao último.

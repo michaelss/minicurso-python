@@ -1,35 +1,64 @@
 '''Cliente das classes criadas. Execute com "python classes/cliente_classes.py"'''
 
-import pessoa
+from pessoa import Pessoa
 
-p = pessoa.Pessoa('José da Silva', 25)
+jose = Pessoa('José da Silva', 25)
 
-print(p.primeiro_nome())
+print('Primeiro nome de José: ' + jose.primeiro_nome())
 
-print(p.empresa)
+print('Empresa: ' + jose.empresa)
 
-print(pessoa.Pessoa.empresa)
-
-
-
-
-
-
-
-
-
+print('Empresa: ' + Pessoa.empresa)
 
 
 
 
 
 # ----------------------------------
-# O que será impresso nas linhas abaixo?
+# Atributos de objetos x atributos de classes
 
-# p.empresa = 'CEULP'
+jose.empresa = 'CEULP'
+
+print('Empresa: ' + jose.empresa)
+
+Pessoa.empresa = 'ULBRA'
+
+print('Empresa: ' + Pessoa.empresa)
+
+print('Empresa de novo objeto: ' + Pessoa('Pedro Paulo', 12).empresa)
+
+
+
+# ----------------------------------
+# Outra forma de criar e usar objetos
+
+# ana = Pessoa('Ana Santos', 23)
 #
-# pessoa.Pessoa.empresa = 'ULBRA'
+# print('Primeiro nome de Ana: ' + Pessoa.primeiro_nome(ana))
+
+
+
+# ----------------------------------
+# Herança
+
+# import funcionario as func
 #
-# print(pessoa.Pessoa.empresa)
+# maria = func.Funcionario('Maria de Souza', 26)
 #
-# print(p.empresa)
+# print('Úlimo nome: ' + maria.ultimo_nome())
+
+
+
+# ----------------------------------
+# Duck typing
+
+# def duck(obj):
+#     print(obj.primeiro_nome())
+#
+# duck(ana)
+#
+# from empresa import Empresa
+#
+# empresa = Empresa()
+#
+# duck(empresa)

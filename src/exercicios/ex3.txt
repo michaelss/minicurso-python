@@ -1,0 +1,9 @@
+
+Crie um programa em Python que leia o arquivo localizado em
+https://raw.githubusercontent.com/michaelss/minicurso-python/master/src/pessoas.json
+e em seguida apresente a pessoa que possui o maior IMC (Índice de Massa Corporal),
+além de seu nome.
+
+A fórmula do cálculo do IMC é: massa / (altura)²
+
+Será necessário vasculhar as bibliotecas padrão do Python.

@@ -3,6 +3,7 @@ class Pessoa:
     empresa = 'ACME'
 
     def __init__(self, nome, idade):
+        # Não foi preciso declarar os atributos fora do construtor
         self.nome = nome
         self.idade = idade
 

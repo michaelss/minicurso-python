@@ -1,3 +1,8 @@
+
+# Para testar, basta executar o arquivo. Ele possui uma bateria de testes ao
+# final.
+
+
 # A.
 # Crie uma função que receba um inteiro com a quantidade de alunos e retorne
 # uma string na forma "O número de alunos é <qtd>". Se a quantidade de alunos
