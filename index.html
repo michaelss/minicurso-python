@@ -45,7 +45,10 @@
 					<h1>Python</h1>
 					<h3>Encoinfo 2015 - CEULP/ULBRA</h3>
 					<p>
-						<small><a href="http://michaelss.org">Michael Schuenck dos Santos</a> / <a href="http://twitter.com/michaelss">@michaelss</a></small>
+						<small><a href="http://michaelss.org" target="_blank">Michael Schuenck dos Santos</a> / <a href="http://twitter.com/michaelss" target="_blank">@michaelss</a></small>
+					</p>
+					<p>
+						<small><a href="https://github.com/michaelss/minicurso-python" target="_blank">Material para o minicurso</a></small>
 					</p>
 				</section>
 
@@ -68,36 +71,58 @@
 					</p>
 				</section>
 
+				<section>
+					<h2>Introdução</h2>
+					<p>
+						Criada pelo holandês <a href="https://twitter.com/gvanrossum" target="_blank">Guido Van Rossum</a> entre 1989 e 1991.
+					</p>
+					<p>
+						Criada para desenvolvedores.
+					</p>
+				</section>
+
 				<!-- Example of nested vertical slides -->
 				<section>
-					<section>
-						<h2>Python - Principais Características</h2>
-						<ul>
-							<li>Tipagem <span class="nope">Estática</span> <strong>Dinâmica</strong></li>
-							<li>Blocos definidos pela <strong>identação</strong></li>
-							<li>Fácil de ler e manter</li>
-							<li><span class="nope">Compilada</span> Interpretada</li>
-							<li>Código estruturado, OO e funcional</li>
-							<li>Portável</li>
-							<li>Não possui modificadores de acesso</li>
-						</ul>
-					</section>
-					<section>
-						<h2>Python - Principais Características</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
+					<h2>Características</h2>
+					<ul>
+						<li>Tipagem <span class="nope">Estática</span> <strong>Dinâmica</strong></li>
+						<li>Tipagem <span class="nope">Fraca</span> <strong>Forte</strong></li>
+						<li>Blocos definidos pela <strong>identação</strong></li>
+						<li>Fácil de ler e manter</li>
+						<li><span class="nope">Compilada</span> Interpretada</li>
+						<li>Código estruturado, OO e funcional</li>
+						<li>Portável</li>
+						<li>Não possui modificadores de acesso</li>
+						<li>Tudo é objeto!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Zen do Python</h2>
+					<pre><code data-trim>
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+					</code></pre>
 				</section>
 
 				<section>
@@ -167,6 +192,13 @@ Type "help", "copyright", "credits" or "license" for more information.
 							Modo interativo avançado (com <em>autocomplete</em>, por exemplo)
 						</p>
 						<a href="http://ipython.org/" target="_blank">http://ipython.org/</a>
+					</section>
+					<section>
+						<h2>IPython Notebook</h2>
+						<p>
+							IPython no navegador Web
+						</p>
+						<a href="http://ipython.org/notebook.html" target="_blank">http://ipython.org/notebook.html</a>
 					</section>
 				</section>
 
@@ -241,6 +273,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 				</section>
 
 				<section>
+					<h2>Exercícios</h2>
+				</section>
+
+				<section>
 					<h2>Módulos</h2>
 					<p>
 						Módulos são conjuntos de instruções (reutilizáveis) definidas em arquivos separados
@@ -286,6 +322,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 				</section>
 
 				<section>
+					<h2>Exercícios</h2>
+				</section>
+
+				<section>
 					<h2>Tools</h2>
 					<p>
 						Ambiente: VirtualEnv, Pip
@@ -327,11 +367,22 @@ Type "help", "copyright", "credits" or "license" for more information.
 					</section>
 				</section>
 
+				<section>
+					<h2>VirtualEnv</h2>
+					<pre><code data-trim>
+$ mkdir meu_projeto
+$ cd meu_projeto
+$ virtualenv meu_ambiente
+$ source meu_ambiente/bin/activate
+(meu_ambiente)$ _
+					</code></pre>
+				</section>
+
 				<section style="text-align: left;">
-					<h1>THE END</h1>
+					<h1>FIM</h1>
 					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+						- <a href="http://michaelss.org" target="_blank">Home-Page</a> <br>
+						- <a href="https://twitter.com/michaelss" target="_blank">Twitter</a>
 					</p>
 				</section>
 
